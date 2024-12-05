@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("BasePopoverReflowSheet.react",["BaseContextualLayerAnchorRoot.react","BasePopoverReflowSheetContext","BasePortal.react","HiddenSubtreeContext","react"],(function(a,b,c,d,e,f,g){"use strict";var h,i=h||(h=d("react"));b=h;var j=b.useContext,k=b.useMemo;function a(a){a=a.children;var b=j(c("HiddenSubtreeContext"));b=b.hidden;var d=k(function(){return{isReflowSheet:!0}},[]);return i.jsx(c("BasePopoverReflowSheetContext").Provider,{value:d,children:i.jsx(c("BasePortal.react"),{hidden:b,children:i.jsx(c("BaseContextualLayerAnchorRoot.react"),{children:a})})})}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);
